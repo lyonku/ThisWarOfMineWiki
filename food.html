@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>This war of mine, Wikipedia</title>
+    <script src="https://kit.fontawesome.com/8234d8638e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        let i = 0;
+        function anotherVersion() {
+            let text = document.getElementsByClassName('text1');
+            if (i == 0) {
+                document.querySelectorAll('h1').forEach(function (item) { item.classList.toggle("mystyle") });
+                for (let p = 0; p < text.length; p++) {
+                    text[p].style.fontSize = "25pt";
+                }
+                i = 1;
+            } else {
+                document.querySelectorAll('h1').forEach(function (item) { item.classList.toggle("mystyle") });
+                for (let p = 0; p < text.length; p++) {
+                    text[p].style.fontSize = "15pt";
+                }
+                i = 0;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="wrapper" id="up">
+        <a href="#top" class="arrow_up"><img src="Photo/arrowup.png" alt=""></a>
+        <img src="versionfornotsee.png" alt="" onclick="anotherVersion()" class="anotherVersion">
+        <div class="button_up"></div>
+
+        <div class="header">
+            <a href="index.html"><img class="logo" src="logo.png"></Img>
+                <img src="Photo/logowithgrovishe.png" class="logodop" alt=""></img></a>
+            <div class="inner-header">
+                <nav>
+                    <ul class="nav">
+                        <li><a href="location.html">Локации </a></li>
+                        <li><a href="characters.html">Персонажи </a></li>
+                        <li><a href="items.html">Предметы</a></li>
+                        <li><a href="food.html">Еда </a></li>
+                        <li><a href="crafttree.html">Дерево крафта </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row" id="Home">
+            <div class="content">
+                <div class="inner-content">
+                    <div class="texnicheskieraboti">У НАС ВЕДУТСЯ ТЕХНИЧЕСКИЕ РАБОТЫ <br>НО УЖЕ СКОРО МЫ СНОВА БУДЕМ С
+                        ВАМИ
+                        <br>НЕ
+                        ГРУСТИТЕ!
+
+                    </div><img src="Photo/20161206-083049.png" alt="" class="texnicheskierabotiimg">
+
+                </div>
+            </div>
+            <div class="sidebar">
+                <div class="inner-sidebar">
+                    <div class="oigre">
+                        <img src="Photo/oigre.jpeg" class="imgoigre" alt="">
+                        <table class="tableoigre" cellpadding="5" cellspacing="0">
+                            <tr>
+                                <td>Разработчик</td>
+                                <td><a href="">bit studios</a></td>
+                            </tr>
+                            <tr>
+                                <td>Издатель</td>
+                                <td>11 bit studios
+                                    Deep silver
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Дата выпуска</td>
+                                <td><a href="">Microsoft Windows</a>
+                                    14 ноября 2014
+                                    <a href="">Android и iOS</a>
+                                    15 июля 2015
+                                    Издание «The Little Ones»:
+                                    <a href="">PlayStation 4 и Xbox One</a>
+                                    29 января 2016
+                                    <a href="">Nintendo Switch</a>
+                                    27 ноября 2018</td>
+                            </tr>
+                            <tr>
+                                <td>Последняя версия</td>
+                                <td>4.0.0 / 14 ноября 2017</td>
+                            </tr>
+                            <tr>
+                                <td>Жанр</td>
+                                <td>симулятор выживания, стелс-экшен, сайд-скроллер</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="zaglavoigre">Технические данные:</td>
+                            </tr>
+
+                            <tr>
+                                <td>Платформы</td>
+                                <td>Windows, macOS, Linux, iOS, Android, PlayStation 4, Xbox One, Nintendo Switch</td>
+                            </tr>
+                            <tr>
+                                <td>Режим игры</td>
+                                <td>одиночная игра</td>
+                            </tr>
+                            <tr>
+                                <td>Язык интерфейса</td>
+                                <td>русский, английский, корейский, китайский, французский, немецкий, испанский,
+                                    японский, польский, португальский, турецкий, итальянский, венгерскийвьетнамский,
+                                    румынский, украинский, финский, чешский</td>
+                            </tr>
+                            <tr>
+                                <td>Носители</td>
+                                <td> <a href="">Steam</a>,<a href="">GOG.com</a> ,<a href="">Epic Games Store</a> и <a
+                                        href="">Humble Store</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="opros1">
+                        <p class="oproszaglav">Какой из персонажей тебе нравится больше?</p>
+                        <form action="" class="opros">
+                            <ul>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn1">Марко
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn2">Бруно
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn3">Роман
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn4">Катя
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn5">Борис
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn6">Павло
+                                </li>
+                                <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn7">Злата
+                                </li>
+                                <li><a class="button24" onclick="onButtonSendClick()">Отправить</a></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div id="bullet">
+                        <div class="nFace"></div>
+                        <div class="nBody"></div>
+                        <div class="nBody2"></div>
+                        <div class="nBody3"></div>
+                        <div class="veter1"></div>
+                        <div class="veter2"></div>
+                        <div class="veter3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="poweredby">
+                    <p>РАЗРАБОТАНО </p> <a href=""><img class="poweredimg" src="Photo/logo_alienware.png" alt=""></a>
+                </div>
+                <div class="socialmedia">
+                    <p>СОЦИАЛЬНЫЕ СЕТИ</p>
+                    <ul class="socialmedialist">
+                        <li><a href="https://www.facebook.com/thiswarofmine" class="fab fa-facebook-f"></a></li>
+                        <li><a href="http://www.thiswarofmine.com/" class="fab fa-instagram"></a></li>
+                        <li><a href="https://twitter.com/11bitstudios" class="fab fa-twitter"></a></li>
+                        <li><a href="youtube.com/user/11bitstudios" class="fab fa-youtube"></a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <p>КОНТАКТЫ</p>
+                    <ul class="contactlist">
+                        <li><i class="fa fa-home" aria-hidden="true"></i><a href="">11 bit studios S.A.</a></li>
+                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a
+                                href="info@11bitstudios.com">info@11bitstudios.com</a></li>
+                        <li><i class="fa fa-globe" aria-hidden="true"></i><a
+                                href="http://www.11bitstudios.com">http://www.11bitstudios.com</a>
+
+                    </ul>
+                </div>
+                <div class="rights">
+                    All Rights Reserved © 2009-2018 11 bit studios S.A. <p>Cookies Policy / Privacy Policy / User
+                        Agreement</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
