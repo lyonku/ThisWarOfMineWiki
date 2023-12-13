@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- document.querySelectorAll('ol li a').forEach(function(item) {item.classList.toggle("mystyle")}); 
-    document.querySelectorAll('ol li a').forEach(item => item.style.fontSize = '50px');
-document.querySelectorAll('ol li a').forEach(function(item) {item.classList.toggle("mystyle")});-->
 
 <head>
     <meta charset="UTF-8">
@@ -12,6 +9,18 @@ document.querySelectorAll('ol li a').forEach(function(item) {item.classList.togg
     <script src="https://kit.fontawesome.com/8234d8638e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("li a").click(function () {
+                elementClick = $(this).attr("href");
+                destination = $(elementClick).offset().top;
+                $("body,html").animate({ scrollTop: destination }, 1000);
+            });
+        });
+    </script>
+
+
     <script type="text/javascript">
         function onButtonSendClick() {
             if (document.getElementById("radioBtn1").checked) {

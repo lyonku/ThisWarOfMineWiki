@@ -9,6 +9,16 @@
     <script src="https://kit.fontawesome.com/8234d8638e.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="style1.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("li a").click(function () {
+                elementClick = $(this).attr("href");
+                destination = $(elementClick).offset().top;
+                $("body,html").animate({ scrollTop: destination }, 1000);
+            });
+        });
+    </script>
     <script>
         function imgPointing() {
             let img = document.getElementById("slide1");
@@ -322,14 +332,14 @@
                     <div class="sidebar-list">
                         <ol>
                             <li class="navigation">Навигация:</li>
-                            <li><a href="">Заброшенный дом</a></li>
-                            <li><a href="">Разбомбленная школа</a></li>
-                            <li><a href="">Разрушенный дом</a></li>
-                            <li><a href="">Разрушенная вилла</a></li>
-                            <li><a href="">Малая обитель</a></li>
-                            <li><a href="">Супермаркет</a></li>
-                            <li><a href="">Тихий дом</a></li>
-                            <li><a href="">Снайперская развязка/Центральная площадь</a></li>
+                            <li><a href="#dom">Заброшенный дом</a></li>
+                            <li><a href="#school">Разбомбленная школа</a></li>
+                            <li><a href="#dom2">Разрушенный дом</a></li>
+                            <li><a href="#villa">Разрушенная вилла</a></li>
+                            <li><a href="#obitel">Малая обитель</a></li>
+                            <li><a href="#supermarket">Супермаркет</a></li>
+                            <li><a href="#dom3">Тихий дом</a></li>
+                            <li><a href="#razvyazka">Снайперская развязка/Центральная площадь</a></li>
                         </ol>
                     </div>
                     <div class="opros1">

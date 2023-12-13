@@ -1,0 +1,48 @@
+
+      var BT = BT || {};
+      BT.API_HOST = 'https://extract.btserve.com';
+      BT.RENDER_HOST = 'https://www.btserve.com';
+      BT.CREATIVE_HOST = 'https://d250tsfwz8kxvq.cloudfront.net/';
+      BT.PUB_ID = '188';
+      BT.SITE_ID = '892';
+      BT.PLACEMENT_ID = '{"5b33d3584c-188|0":3667,"5b2d1649b2-188|1":3645,"5bbe13967e-188|2":4082,"5b8f13805d-188|3":3872}';
+      BT.PASSBACK = {"5b33d3584c-188|0":{"size":[],"tag":""},"5b2d1649b2-188|1":{"size":[300,600],"tag":"PHNjcmlwdCBzcmM9J2h0dHBzOi8vd3d3Lmdvb2dsZXRhZ3NlcnZpY2VzLmNvbS90YWcvanMvZ3B0LmpzJz4NCiAgZ29vZ2xldGFnLnB1YmFkcygpLmRlZmluZVBhc3NiYWNrKCcvOTcwODYxMTAvZmFuZG9tX3Bhc3NiYWNrJywgWzMwMCwgNjAwXSkuZGlzcGxheSgpOw0KPC9zY3JpcHQ+"},"5bbe13967e-188|2":{"size":[],"tag":""},"5b8f13805d-188|3":{"size":[],"tag":""}};
+      BT.AD_UNIT_SETTINGS = [{"bids":[{"bidder":"aol","params":{"bidFloor":"0.15","network":"9435.1","placement":"4871758"}},{"bidder":"appnexus","params":{"placementId":"13669314","reserve":0.15}},{"bidder":"appnexusS2S","params":{"memberId":"4005","placementId":13669314}},{"bidder":"criteo","params":{"zoneId":"1409112"}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"728x90","siteId":"292733","size":[728,90]}},{"bidder":"openx","params":{"customFloor":0.15,"delDomain":"wikia-d.openx.net","unit":"540193622"}},{"bidder":"pubmatic","params":{"adSlot":"Fandom_BT_TopLeaderboard_728x90@728x90","kadfloor":"0.15","publisherId":"156260","size":[728,90]}},{"bidder":"rubicon","params":{"accountId":"7450","floor":0.15,"siteId":"205040","zoneId":"1010052"}}],"code":"5b33d3584c-188|0","gamPath":null,"mediaTypes":{"banner":{"sizes":[[728,90],[970,90]]}}},{"bids":[{"bidder":"aol","params":{"bidFloor":"0.15","network":"9435.1","placement":"4871757"}},{"bidder":"appnexus","params":{"placementId":"13669315","reserve":0.15}},{"bidder":"appnexusS2S","params":{"memberId":"4005","placementId":13669315}},{"bidder":"criteo","params":{"zoneId":"1405747"}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"300x250","siteId":"292734","size":[300,250]}},{"bidder":"openx","params":{"customFloor":0.15,"delDomain":"wikia-d.openx.net","unit":"540193629"}},{"bidder":"pubmatic","params":{"adSlot":"Fandom_BT_TopRightBox_300x250@300x250","kadfloor":"0.15","publisherId":"156260","size":[300,250]}},{"bidder":"rubicon","params":{"accountId":"7450","floor":0.15,"siteId":"205040","zoneId":"1010054"}}],"code":"5b2d1649b2-188|1","gamPath":null,"mediaTypes":{"banner":{"sizes":[[120,600],[160,600],[300,250],[300,600]]}}},{"bids":[{"bidder":"aol","params":{"bidFloor":"0.15","network":"9435.1","placement":"4970823"}},{"bidder":"appnexus","params":{"placementId":"14133057","reserve":0.15}},{"bidder":"appnexusS2S","params":{"memberId":"4005","placementId":14133057}},{"bidder":"criteo","params":{"zoneId":"1405747"}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"160x600","siteId":"307678","size":[160,600]}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"300x250","siteId":"307678","size":[300,250]}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"300x600","siteId":"307678","size":[300,600]}},{"bidder":"openx","params":{"customFloor":0.15,"delDomain":"wikia-d.openx.net","unit":"540378538"}},{"bidder":"pubmatic","params":{"adSlot":"Fandom_BT_Right_Rail_Sticky_300x250","kadfloor":"0.15","publisherId":"156260","size":[300,250]}},{"bidder":"rubicon","params":{"accountId":"7450","floor":0.15,"siteId":"205040","zoneId":"1076380"}}],"code":"5bbe13967e-188|2","gamPath":null,"mediaTypes":{"banner":{"sizes":[[160,600],[300,250],[300,600]]}}},{"bids":[{"bidder":"aol","params":{"bidFloor":"0.15","network":"9435.1","placement":"4946700"}},{"bidder":"appnexus","params":{"placementId":"13946510","reserve":0.15}},{"bidder":"appnexusS2S","params":{"memberId":"4005","placementId":13946510}},{"bidder":"criteo","params":{"zoneId":"1409112"}},{"bidder":"ix","params":{"bidFloor":0.15,"bidFloorCur":"USD","id":"728x90","siteId":"299403","size":[728,90]}},{"bidder":"openx","params":{"customFloor":0.15,"delDomain":"wikia-d.openx.net","unit":"540311079"}},{"bidder":"pubmatic","params":{"adSlot":"Bottom_LeaderboardBT_728x90@728x90","kadfloor":"0.15","publisherId":"156260","size":[728,90]}},{"bidder":"rubicon","params":{"accountId":"7450","floor":0.15,"siteId":"205040","zoneId":"1053190"}}],"code":"5b8f13805d-188|3","gamPath":null,"mediaTypes":{"banner":{"sizes":[[300,250],[728,90],[970,90],[970,250]]}}}];
+      BT.GDPR_APPLICABLE = false;
+      BT.GAM_PATHS = {};
+      BT.AD_REQUEST_TIME = 1576335772501;
+      BT.COUNTRY = 'RU';
+      BT.CONTAINERIDS =  {};
+      BT.SRA = true;
+      BT.SERVE_MODE = false;
+      BT.JS_MODE = true;
+      BT.COLORLESS_MODE = false;
+      BT.GAM_CURRENCY = "USD";
+      BT.WHITELISTED_BIDDERS = ["criteo"];
+      BT.PRICE_BUCKET_SETTINGS = "auto";
+      BT.DFP_SETTINGS = {};
+      BT.PAGEVIEW_ID = '0a8bd0ad-1e7d-11ea-9e3d-915cd9f64ff3';
+     
+
+      BT.LOG_CODES = {
+        EVENT: {
+          AUCTION_STARTED: 20000000,
+          REAUCTION_STARTED: 50000000,
+          BID_RESPONSE_RECEIVED: 20000200,
+          BID_WON: 20000300,
+          BID_TIMEOUT: 20000600,
+          NO_BID: 20000500
+        }
+      };
+
+      var bidthruScript = document.createElement('script');
+      bidthruScript.setAttribute('src','https://d5ssgc0nf5vml.cloudfront.net/bidthru.js?btserve=true');
+      bidthruScript.setAttribute('id', 'bidt-script');
+      document.head.append(bidthruScript)
+
+      var img = document.createElement('img');
+      img.setAttribute('src', BT.API_HOST + '/sync?btserve=true')
+      img.setAttribute('height', '1px');
+      img.setAttribute('width', '1px');
+      img.setAttribute('id', 'bidt-sync');
+      document.head.append(img);

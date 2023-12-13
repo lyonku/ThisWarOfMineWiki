@@ -10,6 +10,29 @@
     <link rel="shortcut icon" href="logo.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="styleforcharacters.css">
     <script>
+        function onButtonSendClick() {
+            if (document.getElementById("radioBtn1").checked) {
+                alert("Спасибо что выбрали, Марко");
+            }
+            if (document.getElementById("radioBtn2").checked) {
+                alert("Спасибо что выбрали, Бруно");
+            }
+            if (document.getElementById("radioBtn3").checked) {
+                alert("Спасибо что выбрали, Романа");
+            }
+            if (document.getElementById("radioBtn4").checked) {
+                alert("Спасибо что выбрали, Катю");
+            }
+            if (document.getElementById("radioBtn5").checked) {
+                alert("Спасибо что выбрали, Бориса");
+            }
+            if (document.getElementById("radioBtn6").checked) {
+                alert("Спасибо что выбрали, Павло");
+            }
+            if (document.getElementById("radioBtn7").checked) {
+                alert("Спасибо что выбрали, Злату");
+            }
+        }
         let i = 0;
         function anotherVersion() {
             let text = document.getElementsByClassName('text1');
@@ -144,7 +167,7 @@
                                 </li>
                                 <li><input class="radioBtn" type="radio" name="persona" value="" id="radioBtn7">Злата
                                 </li>
-                                <li><a href="" class="button24">Отправить</a></li>
+                                <li><a class="button24" onclick="onButtonSendClick()">Отправить</a></li>
                             </ul>
                         </form>
                     </div>

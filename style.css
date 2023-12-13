@@ -151,7 +151,12 @@ a img {
     margin-left: 50px;
 }
 
-
+.slide2 {
+    width: 200px;
+    float: right;
+    margin-top: 30px;
+    padding-right: 20px;
+}
 
 .text12 {
     display: inline-block;
@@ -193,7 +198,7 @@ a img {
 
 .inner-sidebar {
     background-color: rgba(63, 63, 63, 0.55);
-    min-height: 2200px;
+    min-height: 1350px;
     font-family: Arial, Helvetica, sans-serif;
 }
 

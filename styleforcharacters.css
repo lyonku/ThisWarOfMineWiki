@@ -104,6 +104,11 @@ a img {
     margin-left: 95%;
     position: fixed;
     z-index: 9999;
+    cursor: pointer;
+}
+
+.anotherVersion:active {
+    box-shadow: 0 0 10px rgb(255, 180, 0);
 }
 
 /* Row */
@@ -133,6 +138,10 @@ a img {
     margin: 25px;
     display: inline;
     color: rgb(255, 180, 0);
+}
+
+.mystyle {
+    font-size: 30pt;
 }
 
 .text1 {
@@ -228,7 +237,6 @@ ol{
     margin:0;
     padding:0;
     list-style:none;
-    height:50px;
 }
   
 ol li a {
@@ -295,6 +303,7 @@ ol li a:hover{
     border-width: 2px;
     background-color: rgba(63, 63, 63, 0.55);
     box-shadow: none;
+    cursor: pointer;
   } 
   a.button24:hover { 
       color:  #e2a01b; 
